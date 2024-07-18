@@ -1,8 +1,6 @@
-{% set version = "0.1.0" %}
-
 package:
-  name: splinart
-  version: {{ version }}
+  name: splinart-sdcall
+  version: "0.1.0"
 
 source:
   - url: file://{{ RECIPE_DIR }}/../dist/splinart-{{ version }}.tar.gz
